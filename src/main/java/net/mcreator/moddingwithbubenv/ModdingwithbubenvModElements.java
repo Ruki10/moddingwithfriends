@@ -46,6 +46,8 @@ public class ModdingwithbubenvModElements {
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 
 	public ModdingwithbubenvModElements() {
+		sounds.put(new ResourceLocation("moddingwithbubenv", "toilet"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("moddingwithbubenv", "toilet")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("moddingwithbubenv").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

@@ -7,13 +7,37 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "rubens_dog"
+    },
+    {
+      "name": "Rubendogpee",
+      "type": "fluid",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubendogpee",
+      "metadata": {
+        "gb": true
+      }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "toilet",
+      "files": [
+        "toilet-sound-effect"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
-      "item.moddingwithbubenv.rubens_dog": "Ruben\u0027s Dog"
+      "item.moddingwithbubenv.rubens_dog": "Ruben\u0027s Dog",
+      "subtitles.toilet": "",
+      "item.moddingwithbubenv.rubendogpee_bucket": "Rubendogpee Bucket",
+      "fluid.moddingwithbubenv.rubendogpee": "Ruben\u0027s Dog\u0027s Pee",
+      "block.moddingwithbubenv.rubendogpee": "Ruben\u0027s Dog\u0027s Pee"
     }
   },
   "foldersRoot": {

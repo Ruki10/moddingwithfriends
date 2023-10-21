@@ -1,0 +1,11 @@
+{
+  "toilet": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "moddingwithbubenv:toilet-sound-effect",
+        "stream": false
+      }
+    ]
+  }
+}

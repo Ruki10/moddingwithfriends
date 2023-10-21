@@ -1,0 +1,48 @@
+{
+  "_fv": 34,
+  "_type": "fluid",
+  "definition": {
+    "name": "Ruben's Dog's Pee",
+    "bucketName": "Rubendogpee Bucket",
+    "textureStill": "pee",
+    "textureFlowing": "pee",
+    "tintType": "No tint",
+    "canMultiply": true,
+    "flowRate": 16,
+    "levelDecrease": 1,
+    "slopeFindDistance": 16,
+    "spawnParticles": true,
+    "dripParticle": {
+      "value": "WATER_DROP"
+    },
+    "flowStrength": 4.1,
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "temperature": 300,
+    "type": "LAVA",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "emptySound": {
+      "value": "CUSTOM:toilet"
+    },
+    "rarity": "EPIC",
+    "specialInfo": [],
+    "resistance": 100.0,
+    "luminance": 0,
+    "lightOpacity": 1,
+    "emissiveRendering": false,
+    "tickRate": 10,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT",
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": []
+  }
+}
